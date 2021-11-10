@@ -11,6 +11,7 @@ namespace TicTacToeWorkshop
         //declaring a char data type array of size 10 to accomodate all the 9 places in the game these are set to be empty.
         char[] choice = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
         
+        //displayiong the display board 
         public void DisplayBoardUC1()
         {
             Console.WriteLine("     |     |      ");
