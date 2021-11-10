@@ -8,7 +8,7 @@ namespace TicTacToeWorkshop
         {
             Console.WriteLine("-----------Welcome to The tic tac toe board game!-------");
             TicTacToeGame game = new TicTacToeGame();
-            game.DisplayBoardUC1();
+            game.DisplayBoard();
         }
     }
 }

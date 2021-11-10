@@ -9,26 +9,26 @@ namespace TicTacToeWorkshop
     public class TicTacToeGame
     {
         //declaring a char data type array of size 10 to accomodate all the 9 places in the game these are set to be empty.
-        char[] choice = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
+        char[] board = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
         
         //displayiong the display board 
-        public void DisplayBoardUC1()
+        public void DisplayBoard()
         {
             Console.WriteLine("     |     |      ");
 
-            Console.WriteLine("  {0}  |  {1}  |  {2}", choice[1], choice[2], choice[3]);
+            Console.WriteLine("  {0}  |  {1}  |  {2}", board[1], board[2], board[3]);
 
             Console.WriteLine("_____|_____|_____ ");
 
             Console.WriteLine("     |     |      ");
 
-            Console.WriteLine("  {0}  |  {1}  |  {2}", choice[4], choice[5], choice[6]);
+            Console.WriteLine("  {0}  |  {1}  |  {2}", board[4], board[5], board[6]);
 
             Console.WriteLine("_____|_____|_____ ");
 
             Console.WriteLine("     |     |      ");
 
-            Console.WriteLine("  {0}  |  {1}  |  {2}", choice[7], choice[8], choice[9]);
+            Console.WriteLine("  {0}  |  {1}  |  {2}", board[7], board[8], board[9]);
 
             Console.WriteLine("     |     |      ");
         }
